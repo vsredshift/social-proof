@@ -1,0 +1,148 @@
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -.1rem;
+  margin: 130px 20px 0 165px;
+}
+
+h4 {
+  color:  hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 4px;
+}
+
+h6 {
+  color: hsl(333, 80%, 67%);
+  font-size: 14px;
+  font-weight: lighter;
+  opacity: 60%;
+}
+
+.top-container{
+text-align: center;
+}
+
+.background-pattern {
+  position: absolute;
+}
+
+.bottom {
+  right: 0;
+  top: 130px;
+  z-index: -1;
+}
+
+.tag-line {
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  line-height: 1.7;
+  margin-left: 165px;
+  margin-top: 15px;
+  padding-right: 20px;
+}
+
+.ratings-box-top {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin-top: 140px;
+  margin-left: 30px;
+  height: 60px;
+  width: 450px;
+}
+.ratings-box {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  height: 60px;
+  margin: 15px 70px;
+  text-align: center;
+  width: 450px;
+  z-index: 1;
+}
+.right{
+  margin-left: 110px;
+}
+
+.ratings {
+  color: hsl(300, 43%, 22%);
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.stars {
+  display: inline;
+  margin-left: 20px;
+}
+
+
+#testimonial {
+  margin-left: 145px;
+  margin-top: 30px;
+}
+
+.testimonial-box {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  text-align: left;
+  height: 250px;
+  width: 350px;
+}
+
+.testimonial-box-2 {
+  position: relative;
+  top: 20px;
+}
+
+.testimonial-box-3 {
+  position: relative;
+  top: 40px;
+}
+
+.test-image {
+  border-radius: 100%;
+  float: left;
+  margin: 40px 20px 0 30px;
+  width: 12%;
+}
+
+.test-text {
+  color: white;
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 2;
+  padding: 20px 35px 30px 30px;
+}
+
+.attribution {
+  font-size: 11px;
+  margin-top: 40px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media (max-width: 1000px) {
+  body {
+    width:375px;
+  }
+  #top-section {
+    text-align: center;
+  }
+  .background-pattern {
+    width: 375px;
+  }
+}
